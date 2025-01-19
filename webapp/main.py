@@ -70,7 +70,7 @@ def bootstrap_page(title: str, content: str) -> str:
 @app.get("/", response_class=HTMLResponse)
 def home():
     page_content = """
-    <h1 class="display-4">Welcome to the Home Page, Siobhan Brown</h1>
+    <h1 class="display-4">Welcome to the Home Page, Siobhan Barton</h1>
     <p class="lead">Use the nav bar above to explore the site. Hi This is an update</p>
     <hr/>
     <p>This is a sample FastAPI app with three pages and an embedded Jupyter notebook.</p>
@@ -95,7 +95,7 @@ def jupyter_iframe():
     at http://localhost:8888 in a separate terminal.
     """
     page_content = """
-    <h1>Jupyter Notebook (Iframe)</h1>
+    <h1>Jupyter Notebook (Iframe) not working</h1>
     <p>
         If you prefer, you can open the notebook directly in a new tab:
         <a href="http://localhost:8888" target="_blank">http://localhost:8888</a>
