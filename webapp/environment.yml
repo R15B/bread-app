@@ -1,0 +1,13 @@
+name: bread_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - fastapi=0.95.2
+  - uvicorn=0.22.0
+  - jupyter=1.0.0
+  - ipywidgets=8.0.4
+  - matplotlib=3.7.1
+  - voila=0.4.0
+  - pip
+  - ipykernel
